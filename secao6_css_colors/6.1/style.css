@@ -1,0 +1,24 @@
+#coral_color {
+    color:coral
+}
+
+.font_size_2x_root {
+    font-size: 2rem;
+}
+
+#font_weight_900px {
+      font-weight: 900;
+}
+
+.caveat {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+#right_align{
+    text-align: right;
+}
+
+html {font-size: 30px;}
