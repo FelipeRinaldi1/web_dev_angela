@@ -1,0 +1,24 @@
+/*
+Propriedades do Container Flex (pai) display: flex | inline-flex Define o elemento como um container flexível. 
+flex-direction Direção dos itens: row | row-reverse | column | column-reverse 
+flex-wrap Quebra de linha dos itens: nowrap (padrão) | wrap | wrap-reverse 
+flex-flow Atalho para flex-direction+flex-wrap 
+justify-content Alinhamento no eixo principal: flex-start | flex-end | center | space-between | space-around | space-evenly 
+align-items Alinhamento no eixo cruzado: stretch (padrão) | flex-start | flex-end | center | baseline 
+align-content Alinhamento de múltiplas linhas no eixo cruzado: flex-start,center,space-around, stretch etc. Funciona apenas quando há wrap. 
+gap, row-gap, column-gap Espaçamento entre os itens. 
+
+
+Propriedades dos Itens Flex (filhos) order Altera a ordem visual dos itens. 
+flex-grow Define quanto um item pode crescer. Ex: flex-grow: 1;
+
+flex-shrink Define quanto um item pode encolher. Ex: flex-shrink: 1;
+
+flex-basis Tamanho inicial antes do crescimento ou encolhimento. Pode usar auto,
+100px,
+20%,
+etc. flex Atalho para flex-grow flex-shrink flex-basis. Ex: flex: 1 0 200px;
+
+align-self Alinhamento individual no eixo cruzado,
+sobrescrevendo align-items.
+*/

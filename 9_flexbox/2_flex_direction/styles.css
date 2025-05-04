@@ -1,0 +1,22 @@
+.container1{
+    display: flex;
+    gap:0px;
+    flex-direction: column;
+    flex-basis: 100px;
+}
+
+.one{
+    background-color: red;
+}
+
+.two{
+    background-color: orange;
+}
+
+.three{
+    background-color: yellow;
+}
+
+.four{
+    background-color: green;
+}
